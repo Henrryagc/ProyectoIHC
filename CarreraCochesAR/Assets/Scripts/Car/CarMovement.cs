@@ -37,7 +37,7 @@ public class CarMovement : MonoBehaviour
 
     private void MoveMobile()
     {
-        Debug.Log("x: "+Input.acceleration.x + " x: " + Input.acceleration.y + " z: "+Input.acceleration.z);
+        // Debug.Log("x: "+Input.acceleration.x + " x: " + Input.acceleration.y + " z: "+Input.acceleration.z);
 
         isGrounded = Physics.CheckSphere(transform.position, groundCheckDistance, groundMask);
 
@@ -49,8 +49,7 @@ public class CarMovement : MonoBehaviour
         // get ypos accelerometer, mobil is landascape
 
         float moveZ = Input.acceleration.y;
-        
-        // Viene como true al igualarlo como false no ingresa y el carro deja de girar por todos lados y se puede controlar el vehículo
+                
 
         if (isGrounded == false)
         {
