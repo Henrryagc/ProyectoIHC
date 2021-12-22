@@ -1,3 +1,7 @@
+Autores:
+Carlos: https://github.com/carlosphatt
+Miguel: https://github.com/lawlie94
+Henrry: https://github.com/Henrryagc
 # ProyectoIHC
 Proyecto de realidad aumentada, carrera de coches, curso de Interacción Humano Computador
 
