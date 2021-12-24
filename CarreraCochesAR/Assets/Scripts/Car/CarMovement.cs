@@ -27,12 +27,22 @@ public class CarMovement : MonoBehaviour
     void Start()
     {
         controller.GetComponent<CharacterController>();
+<<<<<<< HEAD
+        // button.onClick.AddListener(myBtnClick);
+=======
+>>>>>>> parent of 6ee2d776 (Ultima versión con los cambios en el ultimo videojuego)
     }
 
     // Update is called once per frame
     void Update()
+<<<<<<< HEAD
+    {
+        // if (!isLocalPlayer) { return; }
+        MoveMobile();
+=======
     {        
        MoveMobile();
+>>>>>>> parent of 6ee2d776 (Ultima versión con los cambios en el ultimo videojuego)
     }
 
     private void MoveMobile()
@@ -49,7 +59,7 @@ public class CarMovement : MonoBehaviour
         // get ypos accelerometer, mobil is landascape
 
         float moveZ = Input.acceleration.y;
-                
+
 
         if (isGrounded == false)
         {

@@ -6,6 +6,11 @@
     "com.unity.ide.vscode": "1.2.4",
     "com.unity.learn.iet-framework": "1.2.3",
     "com.unity.mobile.android-logcat": "1.2.3",
+<<<<<<< HEAD
+    "com.unity.purchasing.udp": "2.0.0",
+    "com.unity.services.authentication": "1.0.0-pre.4",
+=======
+>>>>>>> parent of 6ee2d776 (Ultima versión con los cambios en el ultimo videojuego)
     "com.unity.test-framework": "1.1.29",
     "com.unity.textmeshpro": "3.0.6",
     "com.unity.timeline": "1.4.8",
